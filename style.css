@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.subheader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul .link {
+    color: slateblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ingredients{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.ingredients li {
+    color: olivedrab;
+    font-weight: 100;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.para {
+    font-style: italic;
+}
+
+.directions {
+    color: palevioletred;
+    background-color: cornflowerblue;
+}
