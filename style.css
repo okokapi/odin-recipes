@@ -4,29 +4,50 @@
     color: black;
 }
 
-h1 {
+.header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: 800;
+    text-align: center;
+    width: 600px;
+    margin: auto;
 }
+
+ul,
+ol {
+    margin-top: 5px;
+}
+
 
 .subheader {
     font-size: 24px;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
 }
 
-ul .link {
+.details {
+    font-size: 16px;
+    font-style: oblique;
+}
+
+a.link,
+a.link:link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
     color: slateblue;
-    font-family: 'Courier New', Courier, monospace;
 }
 
-.ingredients{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+a.link:hover {
+    color: blue;
 }
-.ingredients li {
+
+li {
     color: olivedrab;
     font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 img {
@@ -38,7 +59,13 @@ img {
     font-style: italic;
 }
 
-.directions {
-    color: palevioletred;
-    background-color: cornflowerblue;
+span {
+    display: block;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+
+.special {
+    font-size: 16px;
+    margin: 20px 30px;
 }
